@@ -1,7 +1,6 @@
-import { motion } from "framer-motion";
+
 import { Menu, Instagram } from "lucide-react";
-import tiktok from '@/assets/images/tiktok-icon.svg'
-import pinterest from '@/assets/images/pinterest-icon.svg'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPinterestP, faTiktok } from "@fortawesome/free-brands-svg-icons";
 
