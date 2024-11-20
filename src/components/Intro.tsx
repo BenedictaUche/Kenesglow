@@ -20,7 +20,7 @@ const Intro = () => {
         <p className="text-yellowtail text-2xl md:text-3xl lg:text-[38px] font-light">
           Welcome, Friends
         </p>
-        <h1 className="uppercase text-4xl md:text-6xl  font-light leading-tight lg:leading-[8rem]">
+        <h1 className="uppercase text-4xl md:text-6xl lg:text-[120px] font-light leading-tight lg:leading-[8rem]">
           Hello, I'm Kene
         </h1>
         <p className="text-base md:text-lg lg:text-xl leading-7 md:leading-8 lg:leading-9 tracking-normal max-w-md md:max-w-lg lg:max-w-[560px]">
