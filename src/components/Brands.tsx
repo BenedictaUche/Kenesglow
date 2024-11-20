@@ -2,7 +2,7 @@ import Marquee from "react-fast-marquee";
 
 const Brands = () => {
   return (
-    <div className="border-b-gray-400 border-b-[1px] flex flex-col lg:flex-row w-full items-center mt-4 space-y-4 lg:space-y-0">
+    <div className=" flex flex-col lg:flex-row w-full items-center py-6 space-y-4 lg:space-y-0">
       {/* Brands Title */}
       <p className="text-2xl md:text-3xl lg:text-4xl w-full lg:w-1/4 text-yellowtail pl-4 text-center lg:text-left">
         Brands Engaged
