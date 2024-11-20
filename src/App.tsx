@@ -1,31 +1,18 @@
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import MediaKit from './pages/MediaKit';
 import './App.css'
-import HeroSection from './components/HeroSection'
-import Intro from './components/Intro'
-import Brands from './components/Brands'
-import Consultation from './components/Consultation'
-import Footer from './components/Footer'
-import Subfooter from './components/Subfooter'
-import Testimonials from './components/Testimonials'
-import Mantra from './components/Mantra'
-import MarqueOne from './components/MarqueOne'
 
-
-function App() {
-
+const App = () => {
   return (
-    <>
-      <HeroSection />
-      <Intro />
-      <Brands />
-      <Mantra />
-      <MarqueOne />
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/media-kit" element={<MediaKit />} />
+      </Routes>
+    </Router>
+  );
+};
 
-      <Consultation />
-      <Testimonials />
-      <Footer />
-      <Subfooter />
-    </>
-  )
-}
-
-export default App
+export default App;

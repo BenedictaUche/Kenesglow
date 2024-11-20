@@ -98,6 +98,15 @@
   src: url("/public/fonts/OTF/EditorNote-Light.otf") format("otf"),
     url("/public/fonts/OTF/EditorNote-Light.otf") format("otf"),
     url("/public/fonts/OTF/EditorNote-Light.otf") format("truetype");
+  font-weight: light;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Editors Note ExtraLight";
+  src: url("/public/fonts/OTF/EditorNote-ExtraLight.otf") format("otf"),
+    url("/public/fonts/OTF/EditorNote-ExtraLight.otf") format("otf"),
+    url("/public/fonts/OTF/EditorNote-ExtraLight.otf") format("truetype");
   font-weight: lighter;
   font-style: normal;
 }
@@ -122,7 +131,7 @@ body {
 }
 
 h1 {
-  font-family: "Editors Note Regular";
+  font-family: "Editors Note Light";
 }
 
 p {
@@ -136,23 +145,23 @@ p {
 }
 
 /* Ensure scrolling content is hidden */
-.overflow-hidden {
+/* .overflow-hidden {
   position: relative;
   width: 100%;
   overflow:visible;
-}
+} */
 
 
-.scrollbar-hide {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
-}
+/* .scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+} */
 
-.scrollbar-hide::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, Opera */
-}
+/* .scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera
+} */
 
-section {
+/* section {
   position: relative;
 }
 
@@ -188,9 +197,9 @@ section {
 .parallax span {
   display: block;
   margin-right: 30px;
-}
+}  */
 
-/* h1 {
+ /* h1 {
   font-family: "Editors Note Regular";
   font-size: 120px;
   font-weight: 400;

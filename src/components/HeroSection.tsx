@@ -1,28 +1,56 @@
-import React from 'react'
-import Navbar from './Navbar'
-import imageKene from '../assets/images/gif-cut.gif'
-import keneSitting from '@/assets/images/kene-white.png'
-import { Button } from './ui/button'
-
+import React from "react";
+import Navbar from "./Navbar";
+import keneSitting from "@/assets/images/kene-white.png";
+import { Button } from "./ui/button";
+import { motion } from "framer-motion";
+import keneRestaurant from "../assets/images/brands/kene-restaurant.mp4";
+import keneYellow from "@/assets/images/kene-yellow.png";
 
 const HeroSection = () => {
-    return (
-        <div className="bg-black h-[150vh] w-full bg-gradient-to-r from-slate-800 to-slate-900 bg-cover bg-center relative">
-            <img src={imageKene} alt="kene" className='h-full w-full object-cover absolute mix-blend-overlay' />
-            <div className="px-24 py-36 flex flex-col items-center align-middle justify-center text-center">
-                <h1 className='text-9xl text-white uppercase'>Kene's Glow</h1>
-                {/* <p className='text-3xl text-white font-light mt-5'>Explore my journey in fashion, travel, and women empowerment while discovering my business ventures and coaching services.</p> */}
-                <p className='text-[21px] text-white font-medium mt-5 w-[60%]'>Intentional content creation, social media coaching, and photography for brands who want captivating, story-driven content. </p>
-                {/* <Button className='bg-white py-4 px-10 text-lg text-black mt-6'>See More</Button> */}
-                <div className=''>
-                    <div className="flex justify-center z-50 w-full h-64 absolute bottom-[25rem] left-0  bg-[url('/assets/images/girl-green.png')] bg-no-repeat bg-cover  ">
-                        <img src={keneSitting} alt="Kene sitting" className='w-[700px] h-[800px]' />
-                    </div>
-                </div>
-            </div>
-            <Navbar />
-        </div>
-    )
-}
+  return (
+    <>
+      {/* Hero Section */}
+      <div className="bg-black min-h-screen w-full bg-gradient-to-r from-slate-800 to-slate-900 bg-cover bg-center relative">
+        {/* Background Video */}
+        <video
+          src={keneRestaurant}
+          loop
+          autoPlay
+          playsInline
+          muted
+          className="absolute inset-0 w-full h-full object-cover z-10"
+        />
 
-export default HeroSection
+        {/* Light gray overlay */}
+        <div className="absolute inset-0 bg-gray-300 opacity-30 z-20"></div>
+
+        {/* Content */}
+        <div className="relative z-30 px-6 md:px-12 lg:px-24 py-24 flex flex-col items-center text-center space-y-6">
+          <h1 className="text-4xl md:text-6xl lg:text-9xl text-white uppercase font-bold">
+            Kene's Glow
+          </h1>
+          <p className="text-sm md:text-lg lg:text-xl text-white font-medium max-w-2xl">
+            Intentional content creation, social media coaching, and photography
+            for brands who want captivating, story-driven content.
+          </p>
+
+          {/* Floating Image */}
+          <div className="relative w-full flex justify-center mt-10">
+            <div className="bg-white p-4 md:p-6 lg:p-8 shadow-lg">
+              <img
+                src={keneYellow}
+                alt="Kene sitting"
+                className="w-64 h-auto md:w-96 lg:w-[600px] lg:h-[800px] object-cover"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Navbar */}
+      <Navbar />
+    </>
+  );
+};
+
+export default HeroSection;
