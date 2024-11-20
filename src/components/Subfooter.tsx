@@ -1,8 +1,8 @@
-import keneBed from '../assets/images/Kene-bed.png'
-import keneWhite from '../assets/images/Kene-white.png'
-import keneSipping from '../assets/images/Kene-sipping.png'
-import girlGreen from '../assets/images/girl-green.png'
-import keneYellow from '../assets/images/Kene-yellow.png'
+import keneBed from '@/assets/images/Kene-bed.png'
+import keneWhite from '@/assets/images/kene-white.png'
+import keneSipping from '@/assets/images/Kene-sipping.png'
+import girlGreen from '@/assets/images/girl-green.png'
+import keneYellow from '@/assets/images/Kene-yellow.png'
 
 const Subfooter = () => {
   return (
