@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Button } from './ui/button';
 import keneStanding from '../assets/images/kene-standing.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

@@ -1,8 +1,4 @@
-import React from "react";
 import Navbar from "./Navbar";
-import keneSitting from "@/assets/images/kene-white.png";
-import { Button } from "./ui/button";
-import { motion } from "framer-motion";
 import keneRestaurant from "../assets/images/brands/kene-restaurant.mp4";
 import keneYellow from "@/assets/images/kene-yellow.png";
 

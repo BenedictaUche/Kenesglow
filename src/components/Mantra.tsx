@@ -1,4 +1,4 @@
-import React from "react";
+
 import keneMirror from "../assets/images/brands/kene-mirror.mp4";
 
 const Mantra = () => {

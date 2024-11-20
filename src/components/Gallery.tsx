@@ -1,6 +1,5 @@
-import React from "react";
+
 import keneBack from "@/assets/images/kene-back.png";
-import keneBed from "@/assets/images/kene-bed.png";
 import keneSipping from "@/assets/images/kene-sipping.png";
 import keneStanding from "@/assets/images/kene-standing.png";
 import keneWhite from "@/assets/images/kene-white.png";

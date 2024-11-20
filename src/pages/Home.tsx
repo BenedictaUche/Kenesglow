@@ -1,4 +1,4 @@
-import React from "react";
+
 import HeroSection from "@/components/HeroSection";
 import Intro from "@/components/Intro";
 import Brands from "@/components/Brands";
@@ -9,7 +9,6 @@ import Testimonials from "@/components/Testimonials";
 import Mantra from "@/components/Mantra";
 import MarqueOne from "@/components/MarqueOne";
 import Gallery from "@/components/Gallery";
-import Collaborate from "@/components/Collaborate";
 import Stats from "@/components/Stats";
 
 const Home = () => {
