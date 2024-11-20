@@ -1,5 +1,5 @@
-import React from 'react'
-import street from '../assets/street.mp4'
+// import React from 'react'
+// import street from '../assets/street.mp4'
 import keneMirror from '../assets/images/brands/kene-mirror.mp4'
 
 const Mantra = () => {
