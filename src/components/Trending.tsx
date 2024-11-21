@@ -1,13 +1,14 @@
 import viral from '../assets/images/viral.png';
 import mercy from '../assets/images/mercy.png';
 import cut from '../assets/images/cut-people.png';
+import anikela from '../assets/images/anikela.png'
 
 const Trending = () => {
   const items = [
     { number: '01', title: 'This Video Went Really Viral On TikTok', action: 'WATCH THE VIDEO', image: viral, link: 'https://www.tiktok.com/@kenesgloww/video/7367787794283973921?is_from_webapp=1&sender_device=pc&web_id=7424044708274439685' },
     { number: '02', title: 'My Episode With Mercy Eke On Love Is A Game Series', action: 'WATCH THE VIDEO', image: mercy, link: 'https://youtu.be/p7AeXmhPYNU?si=y0e40IORSnrUa8DV' },
     { number: '03', title: 'My Take On Calling People Out', action: 'WATCH THE VIDEO', image: cut, link: 'https://www.tiktok.com/@kenesgloww/video/7433871125668482337?is_from_webapp=1&sender_device=pc&web_id=7424044708274439685' },
-    { number: '04', title: 'African Stars who were at the MET GALA - ANIKELA', action: 'READ THE POST', image: viral, link: 'https://anikela.com/discover-ten-cool-brands-from-alaras-hijabi-exhibition/' },
+    { number: '04', title: 'African Stars who were at the MET GALA - ANIKELA', action: 'READ THE POST', image: anikela, link: 'https://anikela.com/discover-ten-cool-brands-from-alaras-hijabi-exhibition/' },
   ];
 
   return (
