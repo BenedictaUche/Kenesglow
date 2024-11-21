@@ -10,7 +10,7 @@ const Brands = () => {
 
       {/* Marquee Section */}
       <Marquee className="w-full lg:w-3/4" loop={0}>
-        <h1 className="text-2xl md:text-5xl lg:text-[110px] text-center whitespace-nowrap">
+        <h1 className="text-[90px] md:text-[100px] lg:text-[110px] text-center whitespace-nowrap">
           Beauty Hut · BRIT + CO · Topicals · CUBE 65 · HUB BEAUTY ·
         </h1>
       </Marquee>
