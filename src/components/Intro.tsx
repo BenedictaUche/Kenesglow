@@ -4,11 +4,11 @@ const Intro = () => {
       <p className="uppercase text-sm text-gray-500 tracking-widest">Hi, friends, I'm Kene</p>
 
       <div className="space-y-4">
-        <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold">Reluctant Influencer</h1>
-        <h1 className="text-4xl sm:text-5xl md:text-6xl italic">Fashion Lover</h1>
-        <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold">LAGOS NATIVE</h1>
-        <h1 className="text-4xl sm:text-5xl md:text-6xl italic">Delinquent Campaign Model</h1>
-        <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold">Devoted Youtuber</h1>
+        <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold">Reluctant Influencer</h1>
+        <h1 className="text-3xl sm:text-4xl md:text-5xl italic">Fashion Lover</h1>
+        <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold">LAGOS NATIVE</h1>
+        <h1 className="text-3xl sm:text-4xl md:text-5xl italic">Delinquent Campaign Model</h1>
+        <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold">Devoted Youtuber</h1>
       </div>
 
       <p className="text-base sm:text-lg md:text-xl text-gray-700 max-w-xl mx-auto leading-relaxed">
