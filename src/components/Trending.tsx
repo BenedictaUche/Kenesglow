@@ -30,9 +30,9 @@ const Trending = () => {
               </h2>
 
               {/* Action */}
-              <p className="uppercase font-medium text-sm text-gray-600 whitespace-nowrap text-center md:text-left">
+              <a href={item.link} className="uppercase font-medium text-sm text-gray-600 whitespace-nowrap text-center md:text-left">
                 {item.action}
-              </p>
+              </a>
 
               {/* Image */}
               <div className="w-20 h-20 md:w-24 md:h-24 mx-auto md:mx-0">

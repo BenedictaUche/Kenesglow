@@ -10,7 +10,7 @@ const Consultation = () => {
       {/* Left Section */}
       <div className="w-full md:w-1/2 bg-black text-white flex flex-col justify-center items-center space-y-6 p-6 md:p-12 py-10">
         <h2 className="uppercase text-sm tracking-wide text-gray-400 mb-2">WORK WITH ME</h2>
-        <h1 className="text-4xl md:text-6xl lg:text-[90px] text-center capitalize leading-snug md:leading-[5.5rem]">
+        <h1 className="text-2xl md:text-4xl lg:text-[60px] text-center capitalize leading-snug md:leading-[5.5rem]">
           Brand Partnerships & Collaborations
         </h1>
         <p className="text-gray-400 text-base md:text-lg leading-relaxed mb-6">
