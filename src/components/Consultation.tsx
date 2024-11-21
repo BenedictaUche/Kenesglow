@@ -1,8 +1,8 @@
 
 import { Button } from './ui/button';
 import keneStanding from '../assets/images/kene-standing.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCaretUp } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faCaretUp } from '@fortawesome/free-solid-svg-icons';
 
 const Consultation = () => {
   return (
