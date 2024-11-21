@@ -3,11 +3,11 @@ import { faInstagram, faTiktok, faYoutube } from '@fortawesome/free-brands-svg-i
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white w-full px-6 md:px-12 lg:px-20 py-12 flex flex-col lg:flex-row justify-between items-center space-y-8 lg:space-y-0 lg:space-x-8">
+    <footer className="bg-black text-white w-full px-6 md:px-12 lg:px-20 py-12 flex flex-col h-screen lg:flex-row justify-between items-center space-y-8 lg:space-y-0 lg:space-x-8">
       {/* Left Section */}
-      <div className="text-center lg:text-left flex flex-col items-center lg:items-start">
-        <h1 className="text-4xl md:text-6xl lg:text-[90px] uppercase">Kene's Glow</h1>
-        <p className="text-sm md:text-base lg:text-lg max-w-lg mt-4 leading-relaxed">
+      <div className="text-center lg:text-left flex flex-col items-center">
+        <h1 className="text-4xl md:text-6xl lg:text-[90px] tracking-wider uppercase">Kene's Glow</h1>
+        <p className="text-sm md:text-base lg:text-lg max-w-lg mt-4 leading-relaxed text-center">
           Intentional content creation, social media coaching, and photography for brands who want
           authentic, vibrant lifestyle content. Based in the South of France but always on a plane
           somewhere, anyway.

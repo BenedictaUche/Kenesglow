@@ -4,7 +4,7 @@ import keneMirror from '../assets/images/brands/kene-mirror.mp4'
 
 const Mantra = () => {
   return (
-    <div className="opacity-90 relative">
+    <div className="opacity-90 relative h-screen">
       {/* Background Video */}
       <video
         src={keneMirror}
@@ -26,7 +26,7 @@ const Mantra = () => {
           transform: 'translate(-50%, 0) rotate(355deg)',
         }}
       >
-        <p className="text-[6vw] md:text-[5vw] lg:text-[6vw] text-white text-yellowtail bg-transparent text-center leading-relaxed">
+        <p className="text-[6vw] md:text-[5vw] lg:text-[5vw] text-white text-yellowtail bg-transparent text-center leading-relaxed">
           I believe that style can't be possessed, only discovered.
 
           &nbsp;I love the process of helping women see the beauty they already
