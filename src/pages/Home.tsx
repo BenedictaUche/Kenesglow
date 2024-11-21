@@ -11,6 +11,7 @@ import MarqueOne from "@/components/MarqueOne";
 import Gallery from "@/components/Gallery";
 import Stats from "@/components/Stats";
 import QuickLinks from "@/components/QuickLinks";
+import Trending from "@/components/Trending";
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
       <Mantra />
       <MarqueOne />
       <QuickLinks />
+      <Trending />
       <Gallery />
       <Stats />
       <Consultation />

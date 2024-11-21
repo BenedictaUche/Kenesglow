@@ -7,6 +7,7 @@ import keneYellow from "@/assets/images/kene-yellow.png";
 import cubeClinics from "@/assets/images/brands/cube-clinics.gif";
 import imata from "@/assets/images/brands/imata.jpg";
 import beautyHut from "@/assets/images/brands/beautyHut.jpg";
+import naturalHair from "@/assets/images/brands/natural-hair.jpg";
 
 const Gallery = () => {
   return (
@@ -47,17 +48,17 @@ const Gallery = () => {
 
       {/* Bottom Row */}
       <img
-        src={keneBack}
+        src={beautyHut}
         alt="A lady in the back"
         className="w-full h-full object-cover"
       />
       <img
-        src={beautyHut}
+        src={keneBack}
         alt="Beauty Hut brand"
         className="w-full h-full object-cover"
       />
       <img
-        src={keneStanding}
+        src={naturalHair}
         alt="A lady standing"
         className="w-full h-full object-cover"
       />
