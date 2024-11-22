@@ -5,7 +5,6 @@ import Brands from "@/components/Brands";
 import Consultation from "@/components/Consultation";
 import Footer from "@/components/Footer";
 import Subfooter from "@/components/Subfooter";
-import Testimonials from "@/components/Testimonials";
 import Mantra from "@/components/Mantra";
 import MarqueOne from "@/components/MarqueOne";
 import Gallery from "@/components/Gallery";
@@ -64,9 +63,6 @@ const Home = () => {
       </AnimatedComponent>
       <AnimatedComponent>
         <Consultation />
-      </AnimatedComponent>
-      <AnimatedComponent>
-        <Testimonials />
       </AnimatedComponent>
       <AnimatedComponent>
         <Footer />

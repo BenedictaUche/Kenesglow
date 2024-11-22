@@ -26,7 +26,7 @@ const HeroSection = () => {
 
                     {/* Subtext */}
                     <p className="text-gray-300 text-lg md:text-xl font-light uppercase tracking-wide mb-8">
-                        Elevate Your Everyday
+                        Attracting The Best
                     </p>
                 </div>
 
