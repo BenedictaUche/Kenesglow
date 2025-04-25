@@ -7,12 +7,12 @@ const Stats = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 text-center">
         {/* Stat 1 */}
         <div className="border-b md:border-b-0 md:border-r last:border-r-0 md:pr-4 pb-6 md:pb-0">
-          <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900">180k+</h3>
+          <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900">41k+</h3>
           <p className="text-sm sm:text-base text-gray-600 mt-2">Followers on Instagram</p>
         </div>
         {/* Stat 2 */}
         <div className="border-b md:border-b-0 md:border-r last:border-r-0 md:pr-4 pb-6 md:pb-0">
-          <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900">250,000</h3>
+          <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900">400,000+</h3>
           <p className="text-sm sm:text-base text-gray-600 mt-2">Average post reach</p>
         </div>
         {/* Stat 3 */}
@@ -22,7 +22,7 @@ const Stats = () => {
         </div>
         {/* Stat 4 */}
         <div className="border-b md:border-b-0 md:border-r last:border-r-0 md:pr-4 pb-6 md:pb-0">
-          <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900">3,059</h3>
+          <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900">46k+</h3>
           <p className="text-sm sm:text-base text-gray-600 mt-2">Followers on TikTok</p>
         </div>
         {/* Stat 5 */}

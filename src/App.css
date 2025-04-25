@@ -67,27 +67,27 @@
 
 @font-face {
   font-family: "Editors Note Bold";
-  src: url("/public/fonts/OTF/EditorNote-Bold.otf") format("otf"),
-    url("/public/fonts/OTF/EditorNote-Bold.otf") format("otf"),
-    url("/public/fonts/OTF/EditorNote-Bold.otf") format("truetype");
+  src: url("/fonts/OTF/EditorNote-Bold.otf") format("otf"),
+    url("/fonts/OTF/EditorNote-Bold.otf") format("otf"),
+    url("/fonts/OTF/EditorNote-Bold.otf") format("truetype");
   font-style: normal;
 }
 
 
 @font-face {
   font-family: "Editors Note Regular";
-  src: url("/public/fonts/OTF/EditorNote-Regular.otf") format("otf"),
-    url("/public/fonts/OTF/EditorNote-Regular.otf") format("otf"),
-    url("/public/fonts/OTF/EditorNote-Regular.otf") format("truetype");
+  src: url("/fonts/OTF/EditorNote-Regular.otf") format("otf"),
+    url("/fonts/OTF/EditorNote-Regular.otf") format("otf"),
+    url("/fonts/OTF/EditorNote-Regular.otf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Editors Note Medium";
-  src: url("/public/fonts/OTF/EditorNote-Medium.otf") format("otf"),
-    url("/public/fonts/OTF/EditorNote-Medium.otf") format("otf"),
-    url("/public/fonts/OTF/EditorNote-Medium.otf") format("truetype");
+  src: url("/fonts/OTF/EditorNote-Medium.otf") format("otf"),
+    url("/fonts/OTF/EditorNote-Medium.otf") format("otf"),
+    url("/fonts/OTF/EditorNote-Medium.otf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
@@ -95,18 +95,18 @@
 
 @font-face {
   font-family: "Editors Note Light";
-  src: url("/public/fonts/OTF/EditorNote-Light.otf") format("otf"),
-    url("/public/fonts/OTF/EditorNote-Light.otf") format("otf"),
-    url("/public/fonts/OTF/EditorNote-Light.otf") format("truetype");
+  src: url("/fonts/OTF/EditorNote-Light.otf") format("otf"),
+    url("/fonts/OTF/EditorNote-Light.otf") format("otf"),
+    url("/fonts/OTF/EditorNote-Light.otf") format("truetype");
   font-weight: light;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Editors Note ExtraLight";
-  src: url("/public/fonts/OTF/EditorNote-ExtraLight.otf") format("otf"),
-    url("/public/fonts/OTF/EditorNote-ExtraLight.otf") format("otf"),
-    url("/public/fonts/OTF/EditorNote-ExtraLight.otf") format("truetype");
+  src: url("/fonts/OTF/EditorNote-ExtraLight.otf") format("otf"),
+    url("/fonts/OTF/EditorNote-ExtraLight.otf") format("otf"),
+    url("/fonts/OTF/EditorNote-ExtraLight.otf") format("truetype");
   font-weight: lighter;
   font-style: normal;
 }

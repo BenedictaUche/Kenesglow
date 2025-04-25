@@ -9,7 +9,7 @@ const Footer = () => {
         <h1 className="text-4xl md:text-6xl lg:text-[90px] tracking-wider uppercase">Kene's Glow</h1>
         <p className="text-sm md:text-base lg:text-lg max-w-lg mt-4 leading-relaxed">
           Intentional content creation, social media coaching, and photography for brands who want
-          authentic, vibrant lifestyle content. Based in the South of France but always on a plane
+          authentic, vibrant lifestyle content. Based in Lagos but always on a plane
           somewhere, anyway.
         </p>
       </div>
@@ -17,11 +17,11 @@ const Footer = () => {
       {/* Right Section */}
       <div className="text-center lg:text-left">
         <h2 className="text-3xl md:text-5xl lg:text-[70px] text-yellowtail">Let's Collaborate</h2>
-        <p className="text-base md:text-2xl mt-4">hello@kene.com</p>
+        <p className="text-base md:text-2xl mt-4">kenesglow@gmail.com</p>
         <ul className="flex gap-6 justify-center lg:justify-start items-center mt-6">
           <li>
             <a
-              href="https://www.instagram.com/kenesglow/"
+              href="https://www.instagram.com/kenesgloww"
               target="_blank"
               rel="noopener noreferrer"
               className="text-xl md:text-2xl hover:text-gray-400"
@@ -31,7 +31,7 @@ const Footer = () => {
           </li>
           <li>
             <a
-              href="https://www.tiktok.com/kenesgloww/"
+              href="https://www.tiktok.com/@kenesgloww?_t=ZM-8vprneCCQUv&_r=1"
               target="_blank"
               rel="noopener noreferrer"
               className="text-xl md:text-2xl hover:text-gray-400"
@@ -41,7 +41,7 @@ const Footer = () => {
           </li>
           <li>
             <a
-              href="https://www.youtube.com/kenesgloww/"
+              href="https://www.youtube.com/channel/UCWu5lIee8PWB80vkYPSIheQ"
               target="_blank"
               rel="noopener noreferrer"
               className="text-xl md:text-2xl hover:text-gray-400"

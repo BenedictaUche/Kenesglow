@@ -5,7 +5,6 @@ import keneRestaurant from '../assets/images/brands/kene-restaurant.mp4';
 const HeroSection = () => {
     return (
         <>
-            {/* Hero Section */}
             <div className="relative bg-[#1a1a1a] h-screen w-full flex flex-col items-center justify-center text-center">
                 {/* Background Video */}
                 <video
@@ -19,12 +18,10 @@ const HeroSection = () => {
 
                 {/* Content */}
                 <div className="relative z-10 flex flex-col items-center">
-                    {/* Name */}
                     <h1 className="text-white text-5xl md:text-[120px] font-serif mb-4">
                         Kene's Glow
                     </h1>
 
-                    {/* Subtext */}
                     <p className="text-gray-300 text-lg md:text-xl font-light uppercase tracking-wide mb-8">
                         Attracting The Best
                     </p>
@@ -42,7 +39,6 @@ const HeroSection = () => {
                 {/* <div className="relative z-10 h-[300px]"></div> */}
             </div>
 
-            {/* Navbar */}
             <Navbar />
         </>
     );
