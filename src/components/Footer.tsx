@@ -3,7 +3,7 @@ import { faInstagram, faTiktok, faYoutube } from '@fortawesome/free-brands-svg-i
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white w-full px-6 md:px-12 lg:px-20 py-12 flex flex-col lg:flex-row justify-between items-center space-y-8 lg:space-y-0 lg:space-x-8">
+    <footer className="bg-black text-white w-full px-6 md:px-12 lg:px-20 py-12 flex flex-col lg:flex-row justify-between items-center space-y-8 lg:space-y-0 lg:space-x-8" id='contact'>
       {/* Left Section */}
       <div className="text-center lg:text-left flex flex-col items-center lg:items-start">
         <h1 className="text-4xl md:text-6xl lg:text-[90px] tracking-wider uppercase">Kene's Glow</h1>
